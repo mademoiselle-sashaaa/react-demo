@@ -6,22 +6,26 @@ import PropTypes from 'prop-types';
 
 export default class Product extends Component {
     render() {
-        const {id, title, img, price, info, inCart } = this.props.product;
+        const {id, title, img, price, info, inCart} = this.props.product;
         return (
             <ProductWrapper className='col-9 mx-auto col-md-6 col-lg-3 my-3'>
                 <div className="card">
-                    <div className="img-container p-5" onClick={()=> console.log('clicked!!!')}>
-                        <Link to='/details'>
-                            <img src={img} alt='product' className='card-img-top'>
+                    <ProductConsumer>
+                        {(value)=> (
+                            <div className="img-container p-5" onClick={() => value.handleDetail(id)}>
+                                <Link to='/details'>
+                                    <img src={img} alt='product' className='card-img-top'>
 
-                            </img>
-                        </Link>
-                        <button className='cart-btn' disabled={inCart} onClick={()=>console.log('in cart!!')}>
-                            {inCart ?
-                                <p className='text-capitalize mb-0'>in Cart</p> :
-                                <i className='fas fa-cart-plus'></i>}
-                        </button>
-                    </div>
+                                    </img>
+                                </Link>
+                                <button className='cart-btn' disabled={inCart} onClick={() => value.addToCart(id)}>
+                                    {inCart ?
+                                        <p className='text-capitalize mb-0'>in Cart</p> :
+                                        <i className='fas fa-cart-plus'></i>}
+                                </button>
+                            </div>
+                        )}
+                    </ProductConsumer>
                     <div className="card-footer d-flex justify-content-between">
                         <p className='align-self-center mb-0'>
                             {title}
@@ -73,15 +77,15 @@ const ProductWrapper = styled.div`
         position: relative;
         overflow: hidden;
     }
-    
+
     .card-img-top{
          transition: all 1s linear;
     }
-    
+
     .img-container: hover .card-img-top{
         transform: scale(1.2);
     }
-    
+
     .cart-btn{
         position: absolute;
         bottom:0;
@@ -95,11 +99,11 @@ const ProductWrapper = styled.div`
         transform: translate(100%, 100%);     
         transition: all 1s linear;
     }
-    
+
     .img-container: hover .cart-btn {
         transform: translate(0, 0);   
     }
-    
+
     .cart-btn: hover {
          cursor:pointer; 
          color: var(--mainBlue);
