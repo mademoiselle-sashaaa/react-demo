@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53fa92a-9076-4c70-90f8-d5296c4bf5c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/Modal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Details.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Details.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Product.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Modal.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/component/Modal.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+            <state relative-caret-position="239">
+              <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -170,12 +165,12 @@
       <updated>1548670500409</updated>
       <workItem from="1548670501603" duration="4154000" />
       <workItem from="1548678561611" duration="446000" />
-      <workItem from="1548679075042" duration="29024000" />
+      <workItem from="1548679075042" duration="30050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33624000" />
+    <option name="totallyTimeSpent" value="34650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1039" height="826" extended-state="0" />
@@ -333,8 +328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/Modal.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        <state relative-caret-position="239">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

@@ -14,7 +14,16 @@ export default class Modal extends Component {
 
                    return (
                        modalOpen ?
-                           <h1>modal</h1> :
+                           <ModalContainer>
+                               <div className="container">
+                                   <div className="row">
+                                       <div id ='modal' className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize">
+                                           <h5>Item added to the cart</h5>
+                                           <img src={img} alt='product'></img>
+                                       </div>
+                                   </div>
+                               </div>
+                           </ModalContainer> :
                            null
                    )
                }}
@@ -22,4 +31,19 @@ export default class Modal extends Component {
         );
     }
 }
+
+const ModalContainer = styled.div`
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.3);  
+    #modal{
+        background: var(--mainWhite);
+    }
+`;
 
