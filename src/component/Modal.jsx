@@ -17,9 +17,32 @@ export default class Modal extends Component {
                            <ModalContainer>
                                <div className="container">
                                    <div className="row">
-                                       <div id ='modal' className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize">
+                                       <div id ='modal' className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize p-5">
                                            <h5>Item added to the cart</h5>
-                                           <img src={img} alt='product'></img>
+                                           <img src={img} className='img-fluid' alt='product'></img>
+                                           <h4 className='text-blue'>
+                                               {title}
+                                           </h4>
+                                           <h4 className='text-blue'>
+                                               <strong>
+                                                   price: <span>$ {price}</span>
+                                               </strong>
+                                           </h4>
+                                           <Link to='/'>
+                                               <ButtonContainer
+                                                   className='text-capitalize'
+                                                   onClick={()=>{closeModal();}}>
+                                                   Continue shopping
+                                               </ButtonContainer>
+                                           </Link>
+                                           <Link to='/cart'>
+                                               <ButtonContainer
+                                                   cart
+                                                   className='text-capitalize'
+                                                   onClick={()=>{closeModal();}}>
+                                                  go to the cart
+                                               </ButtonContainer>
+                                           </Link>
                                        </div>
                                    </div>
                                </div>
