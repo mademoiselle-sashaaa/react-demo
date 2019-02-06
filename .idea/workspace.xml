@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c53fa92a-9076-4c70-90f8-d5296c4bf5c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/component/Default.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Default.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="c53fa92a-9076-4c70-90f8-d5296c4bf5c8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/component/Default.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="285">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -168,15 +166,15 @@
       <workItem from="1548678561611" duration="446000" />
       <workItem from="1548679075042" duration="33959000" />
       <workItem from="1549269443067" duration="572000" />
-      <workItem from="1549270096649" duration="16847000" />
+      <workItem from="1549270096649" duration="17257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55978000" />
+    <option name="totallyTimeSpent" value="56388000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="995" height="826" extended-state="0" />
+    <frame x="0" y="23" width="995" height="826" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24845996" />
@@ -386,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/Default.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
